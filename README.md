@@ -1,3 +1,8 @@
+# Skip this
+dos2unix run.sh
+sbatch run.sh
+
+
 # Cutout
 
 This repository contains the code for the paper [Improved Regularization of Convolutional Neural Networks with Cutout](https://arxiv.org/abs/1708.04552). 
