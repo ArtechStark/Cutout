@@ -1,11 +1,12 @@
 # Skip this
 ## Changes to fix errors
-- type error
+- Type error
+
 Add a int() to line41 in wide_resnet.py
 ```
 for i in range(int(nb_layers)):
 ```
-- Add a file 'logs/cifar10_resnet18.csv' before I run 
+- Add a file 'logs/cifar10_resnet18.csv' before I run the commond below
 ```
 python train.py --dataset cifar10 --model wideresnet --data_augmentation --cutout --length 16
 ```
