@@ -10,8 +10,8 @@ python train.py --dataset svhn --model wideresnet --learning_rate 0.01 --epochs 
 ```
 ## Run the code 
 dos2unix run.sh
-sbatch run.sh
 
+sbatch run.sh
 
 # Cutout
 
