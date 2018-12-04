@@ -10,6 +10,8 @@ for i in range(int(nb_layers)):
 ```
 python train.py --dataset cifar10 --model wideresnet --data_augmentation --cutout --length 16
 ```
+## Others
+- Accuracy with four decimal places
 ## Modify run.sh 
 ```shell
 python train.py --dataset cifar10 --model resnet18 --data_augmentation --cutout --length 16
