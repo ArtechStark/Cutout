@@ -1,6 +1,12 @@
 # Skip this
+## Modify run.sh 
+```shell
+run train.py --dataset cifar10 --model resnet18 --data_augmentation --cutout --length 16
+run train.py --dataset cifar100 --model resnet18 --data_augmentation --cutout --length 8
+run train.py --dataset svhn --model wideresnet --learning_rate 0.01 --epochs 160 --cutout --length 20
+```
+## Run the code 
 dos2unix run.sh
-
 sbatch run.sh
 
 
