@@ -6,7 +6,7 @@ Add a int() to line41 in wide_resnet.py
 ```
 for i in range(int(nb_layers)):
 ```
-- Add a file 'logs/cifar10_resnet18.csv' before I run the commond below
+- Add an empty file 'logs/cifar10_resnet18.csv' before I run the commond below, maybe just adding a folder 'logs' is ok.
 ```
 python train.py --dataset cifar10 --model wideresnet --data_augmentation --cutout --length 16
 ```
