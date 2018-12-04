@@ -214,11 +214,11 @@ for epoch in range(args.epochs):
         accuracy = correct / total
 
         progress_bar.set_postfix(
-            xentropy='%.3f' % (xentropy_loss_avg / (i + 1)),
-            acc='%.3f' % accuracy)
+            xentropy='%.4f' % (xentropy_loss_avg / (i + 1)),
+            acc='%.4f' % accuracy)
 
     test_acc = test(test_loader)
-    tqdm.write('test_acc: %.3f' % (test_acc))
+    tqdm.write('test_acc: %.4f' % (test_acc))
 
     scheduler.step(epoch)
 
